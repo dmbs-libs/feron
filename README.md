@@ -5,7 +5,7 @@ Using for control [FERON LED luminaries](https://shop.feron.ru/catalog/upravlyae
 Depends on [unmodulated NEC protocol library](https://github.com/dmbs-libs/nec).
 Output: OC1B pin (positive active).
 
-```
+```c
 /*
     Init feron library
  */

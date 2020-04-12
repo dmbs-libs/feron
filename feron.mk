@@ -43,9 +43,9 @@ $(foreach MANDATORY_VAR, $(DMBS_BUILD_MANDATORY_VARS), $(call ERROR_IF_UNSET, $(
 FERON_SRC := $(FERON_MODULE_PATH)/src/feron.c
 
 # Compiler flags and sources
-SRC			       += $(FERON_SRC)
-CC_FLAGS           += -DDMBS_MODULE_FERON
-CC_FLAGS 	       += -I$(FERON_MODULE_PATH)/include/
+SRC      += $(FERON_SRC)
+CC_FLAGS += -DDMBS_MODULE_FERON
+CC_FLAGS += -I$(FERON_MODULE_PATH)/include/
 
 # Phony build targets for this module
 .PHONY: $(DMBS_BUILD_TARGETS)
